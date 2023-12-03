@@ -1,33 +1,33 @@
-//libraries
+//Libraries.
 import processing.svg.*;
 import java.util.*;
 
-//declaration of different images
+//Declaration of different images.
 PImage source;
 PImage direction;
 PImage analyse;
 
-//global variable to track the brightness of an area
+//Global variable to track the brightness of an area.
 int total;
 
-//res = the size of square defining an area of analyze. 
-//the bitmap image is divided in a grid where each cell is res wide and tall, the luminosity of each of these cells is analyzed and replaced by lines
+//Res = the size of square defining an area of analyze. 
+//The bitmap image is divided in a grid where each cell is res wide and tall, the luminosity of each of these cells is analyzed and replaced by lines.
 int res = 10;
-// max = max amount of lines in the area defined by res
+//Max = max amount of lines in the area defined by res.
 int max = 10;
 
-//definition of the amount of lines
+//Definition of the amount of lines.
 float amount;
 
-//variables to plan the drawing of the lines
+//Variables to plan the drawing of the lines.
 int origin;
 int end;
 boolean traceBegin = true;
 boolean traceExist = false;
 
-//bitmap file to turn into vector
+//Bitmap file to turn into vector.
 String file = "src.jpg";
-//file for the direction of the lines. black = vertical, white = horizontal
+//File for the direction of the lines. black = vertical, white = horizontal.
 String directionFile = "dir.png";
 
 //name for the export
