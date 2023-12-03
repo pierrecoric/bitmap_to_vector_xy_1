@@ -28,7 +28,7 @@ boolean traceExist = false;
 //bitmap file to turn into vector
 String file = "src.jpg";
 //file for the direction of the lines. black = vertical, white = horizontal
-String directionFile = "dir.jpg";
+String directionFile = "dir.png";
 
 //name for the export
 String exportName = "export";
